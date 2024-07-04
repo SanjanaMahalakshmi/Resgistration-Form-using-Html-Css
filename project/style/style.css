@@ -1,0 +1,68 @@
+body{
+    background-image: url(/assets/image1.jpg);
+    
+}
+#contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row{
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+}
+form label{
+    flex:2;
+    margin-right: 50px;
+    text-align: right;
+}
+form input,textarea{
+    flex: 2;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+form textarea{
+    height: 80px;
+}
+form .button-container{
+    display: flex;     
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+form button{
+    padding: 10px 30px;
+    background-color: brown;
+    color: azure;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button :hover{
+    background-color: blue;
+
+}
+.dept{
+    margin-left: 50px;
+}
+input .focus{
+    background-color: aquamarine;
+}
+#departments{
+    width: 250px;
+}
+h2{
+    text-decoration: underline;
+}
